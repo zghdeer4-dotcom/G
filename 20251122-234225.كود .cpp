@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
 
-// ======================
 // Parent Class
-// ======================
+
 class Worker
 {
 private:
@@ -28,9 +27,9 @@ public:
     }
 };
 
-// ======================
+
 // Child Class
-// ======================
+
 class Engineer : public Worker
 {
 private:
